@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Worms" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Worms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Worms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Back_End/Communication_files/initConn.cpp" />
+		<Unit filename="Back_End/Communication_files/initConn.h" />
+		<Unit filename="Back_End/Communication_files/play_again.cpp" />
+		<Unit filename="Back_End/Communication_files/play_again.h" />
+		<Unit filename="Back_End/Communication_files/server-client.cpp" />
+		<Unit filename="Back_End/Communication_files/server-client.h" />
+		<Unit filename="Back_End/Defines/gamedefines.h" />
+		<Unit filename="Back_End/Defines/point.cpp" />
+		<Unit filename="Back_End/Defines/point.h" />
+		<Unit filename="Back_End/Map_files/map.cpp" />
+		<Unit filename="Back_End/Map_files/map.h" />
+		<Unit filename="Back_End/Weapons_files/airstrike.cpp" />
+		<Unit filename="Back_End/Weapons_files/airstrike.h" />
+		<Unit filename="Back_End/Weapons_files/banana.cpp" />
+		<Unit filename="Back_End/Weapons_files/banana.h" />
+		<Unit filename="Back_End/Weapons_files/clusterbomb.cpp" />
+		<Unit filename="Back_End/Weapons_files/clusterbomb.h" />
+		<Unit filename="Back_End/Weapons_files/dynamite.cpp" />
+		<Unit filename="Back_End/Weapons_files/dynamite.h" />
+		<Unit filename="Back_End/Weapons_files/firepunch.cpp" />
+		<Unit filename="Back_End/Weapons_files/firepunch.h" />
+		<Unit filename="Back_End/Weapons_files/grenade.cpp" />
+		<Unit filename="Back_End/Weapons_files/grenade.h" />
+		<Unit filename="Back_End/Weapons_files/mine.cpp" />
+		<Unit filename="Back_End/Weapons_files/mine.h" />
+		<Unit filename="Back_End/Weapons_files/pneumaticdrill.cpp" />
+		<Unit filename="Back_End/Weapons_files/pneumaticdrill.h" />
+		<Unit filename="Back_End/Weapons_files/shotgun.cpp" />
+		<Unit filename="Back_End/Weapons_files/shotgun.h" />
+		<Unit filename="Back_End/Weapons_files/uzi.cpp" />
+		<Unit filename="Back_End/Weapons_files/uzi.h" />
+		<Unit filename="Back_End/Weapons_files/weapons.cpp" />
+		<Unit filename="Back_End/Weapons_files/weapons.h" />
+		<Unit filename="Back_End/Worms_files/worms.cpp" />
+		<Unit filename="Back_End/Worms_files/worms.h" />
+		<Unit filename="Front_End/Defines/graphicdefines.h" />
+		<Unit filename="Front_End/main.cpp" />
+		<Unit filename="Front_End/other_buttons.cpp" />
+		<Unit filename="Front_End/other_buttons.h" />
+		<Unit filename="Front_End/runGame.cpp" />
+		<Unit filename="Front_End/runGame.h" />
+		<Unit filename="polonet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="polonet.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1343 @@
+# depslib dependency file v1.0
+1389126219 source:c:\users\dwek\desktop\worms\trunk\worms\classes_packet.cpp
+	"server-client.h"
+
+1389126195 c:\users\dwek\desktop\worms\trunk\worms\classes_packet.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	<fstream>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390627404 source:c:\users\dwek\desktop\worms\trunk\worms\initconn.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"map.h"
+	"initConn.h"
+	"server-client.h"
+
+1337733312 c:\users\dwek\desktop\worms\trunk\worms\polonet.h
+
+1389125322 c:\users\dwek\desktop\worms\trunk\worms\initconn.h
+
+1390505957 c:\users\dwek\desktop\worms\trunk\worms\server-client.h
+	<fstream>
+	"map.h"
+	"polonet.h"
+
+1390627404 source:c:\users\dwek\desktop\worms\trunk\worms\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"map.h"
+	"initConn.h"
+	"server-client.h"
+	"runGame.h"
+	"play_again.h"
+
+1390626989 source:c:\users\dwek\desktop\worms\trunk\worms\map.cpp
+	"map.h"
+	"runGame.h"
+	"server-client.h"
+	<string>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1390625467 c:\users\dwek\desktop\worms\trunk\worms\map.h
+	"graphicdefines.h"
+	"gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<vector>
+	<string>
+	"worms.h"
+
+1390596258 c:\users\dwek\desktop\worms\trunk\worms\graphicdefines.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_image.h>
+	<cmath>
+
+1389717527 c:\users\dwek\desktop\worms\trunk\worms\gamedefines.h
+
+1390626123 c:\users\dwek\desktop\worms\trunk\worms\worms.h
+	"graphicdefines.h"
+	"gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	"weapons.h"
+	"point.h"
+	<vector>
+	<string>
+
+1390626058 c:\users\dwek\desktop\worms\trunk\worms\weapons.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"graphicdefines.h"
+	"gamedefines.h"
+	<vector>
+	"point.h"
+
+1337733534 source:c:\users\dwek\desktop\worms\trunk\worms\polonet.c
+	<winsock.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/filio.h>
+	<stdio.h>
+	<string.h>
+	"polonet.h"
+
+1390626405 source:c:\users\dwek\desktop\worms\trunk\worms\rungame.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	"runGame.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"weapons.h"
+	"firepunch.h"
+	"shotgun.h"
+	"grenade.h"
+	"pneumaticdrill.h"
+	"dynamite.h"
+	"mine.h"
+	"uzi.h"
+	"other_buttons.h"
+	"worms.h"
+	"map.h"
+	"server-client.h"
+
+1390626678 source:c:\users\dwek\desktop\worms\trunk\worms\server-client.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	<fstream>
+	"polonet.h"
+	"server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390626058 source:c:\users\dwek\desktop\worms\trunk\worms\worms.cpp
+	"worms.h"
+	"runGame.h"
+	<iostream>
+	"map.h"
+
+1390599266 c:\users\dwek\desktop\worms\trunk\worms\rungame.h
+	"server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390626103 source:c:\users\dwek\desktop\worms\trunk\worms\weapons.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"map.h"
+	"server-client.h"
+
+1389833516 c:\users\dwek\desktop\worms\trunk\worms\point.h
+
+1389816613 source:c:\users\dwek\desktop\worms\trunk\worms\point.cpp
+	<cmath>
+	"point.h"
+	"graphicdefines.h"
+
+1390537792 source:c:\users\dwek\desktop\worms\trunk\worms\firepunch.cpp
+	"firepunch.h"
+	"map.h"
+	<iostream>
+
+1390356181 c:\users\dwek\desktop\worms\trunk\worms\firepunch.h
+	"weapons.h"
+
+1390270225 source:c:\users\dwek\desktop\worms\trunk\worms\play_again.cpp
+	<cstring>
+	<cstdio>
+	<iostream>
+	"play_again.h"
+	"server-client.h"
+	"polonet.h"
+
+1390243788 c:\users\dwek\desktop\worms\trunk\worms\play_again.h
+	"server-client.h"
+	"polonet.h"
+
+1390538302 source:c:\users\dwek\desktop\worms\trunk\worms\shotgun.cpp
+	"shotgun.h"
+	"map.h"
+	<iostream>
+
+1390538302 c:\users\dwek\desktop\worms\trunk\worms\shotgun.h
+	"weapons.h"
+
+1390537803 source:c:\users\dwek\desktop\worms\trunk\worms\grenade.cpp
+	"grenade.h"
+	"map.h"
+	<iostream>
+
+1390368265 c:\users\dwek\desktop\worms\trunk\worms\grenade.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390537454 source:c:\users\dwek\desktop\worms\trunk\worms\pneumaticdrill.cpp
+	"pneumaticdrill.h"
+	"map.h"
+	"point.h"
+	"server-client.h"
+	<iostream>
+
+1390437608 c:\users\dwek\desktop\worms\trunk\worms\pneumaticdrill.h
+	"weapons.h"
+
+1390536930 source:c:\users\dwek\desktop\worms\trunk\worms\dynamite.cpp
+	"dynamite.h"
+	"map.h"
+	<iostream>
+
+1390500297 c:\users\dwek\desktop\worms\trunk\worms\dynamite.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390537816 source:c:\users\dwek\desktop\worms\trunk\worms\mine.cpp
+	"mine.h"
+	"map.h"
+	<iostream>
+
+1390502213 c:\users\dwek\desktop\worms\trunk\worms\mine.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390594122 source:c:\users\dwek\desktop\worms\trunk\worms\other_buttons.cpp
+	"other_buttons.h"
+
+1390593300 c:\users\dwek\desktop\worms\trunk\worms\other_buttons.h
+	"point.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390620722 c:\users\dwek\desktop\worms\trunk\worms\uzi.h
+	"weapons.h"
+
+1390621086 source:c:\users\dwek\desktop\worms\trunk\worms\uzi.cpp
+	"uzi.h"
+	"map.h"
+	<iostream>
+
+1390675066 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\initconn.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Map_files/map.h"
+	"initConn.h"
+	"server-client.h"
+
+1390687207 c:\users\dwek\desktop\worms\trunk\worms\back_end\map_files\map.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<vector>
+	<string>
+	"../Worms_files/worms.h"
+
+1390596258 c:\users\dwek\desktop\worms\trunk\worms\front_end\defines\graphicdefines.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_image.h>
+	<cmath>
+
+1389717527 c:\users\dwek\desktop\worms\trunk\worms\back_end\defines\gamedefines.h
+
+1390675241 c:\users\dwek\desktop\worms\trunk\worms\back_end\worms_files\worms.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	"../Weapons_files/weapons.h"
+	"../Defines/point.h"
+	<vector>
+	<string>
+
+1390686460 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\weapons.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<vector>
+	"../Defines/point.h"
+
+1389833516 c:\users\dwek\desktop\worms\trunk\worms\back_end\defines\point.h
+
+1389125322 c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\initconn.h
+
+1390675261 c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\server-client.h
+	<fstream>
+	"../Map_files/map.h"
+	"../../polonet.h"
+
+1390675274 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\play_again.cpp
+	<cstring>
+	<cstdio>
+	<iostream>
+	"play_again.h"
+	"server-client.h"
+	"../../polonet.h"
+
+1390675269 c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\play_again.h
+	"server-client.h"
+	"../../polonet.h"
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\communication_files\server-client.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	<fstream>
+	"../../polonet.h"
+	"server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390675303 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\defines\point.cpp
+	<cmath>
+	"point.h"
+	"../../Front_End/Defines/graphicdefines.h"
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\map_files\map.cpp
+	"map.h"
+	"../../Front_end/runGame.h"
+	"../Communication_files/server-client.h"
+	<string>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1390865226 c:\users\dwek\desktop\worms\trunk\worms\front_end\rungame.h
+	"../Back_end/Communication_files/server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\dynamite.cpp
+	"dynamite.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\dynamite.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\firepunch.cpp
+	"firepunch.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\firepunch.h
+	"weapons.h"
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\grenade.cpp
+	"grenade.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\grenade.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\mine.cpp
+	"mine.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\mine.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\pneumaticdrill.cpp
+	"pneumaticdrill.h"
+	"../Map_files/map.h"
+	"../Defines/point.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\pneumaticdrill.h
+	"weapons.h"
+
+1390686204 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\shotgun.cpp
+	"shotgun.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\shotgun.h
+	"weapons.h"
+
+1390686204 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\uzi.cpp
+	"uzi.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\uzi.h
+	"weapons.h"
+
+1390686479 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\weapons.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1390864872 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\worms_files\worms.cpp
+	"worms.h"
+	"../../Front_End/runGame.h"
+	<iostream>
+	"../Map_files/map.h"
+
+1392071066 source:c:\users\dwek\desktop\worms\trunk\worms\front_end\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Back_End/Map_files/map.h"
+	"../Back_End/Communication_files/initConn.h"
+	"../Back_End/Communication_files/server-client.h"
+	"runGame.h"
+	"../Back_End/Communication_files/play_again.h"
+
+1390594122 source:c:\users\dwek\desktop\worms\trunk\worms\front_end\other_buttons.cpp
+	"other_buttons.h"
+
+1390675679 c:\users\dwek\desktop\worms\trunk\worms\front_end\other_buttons.h
+	"../Back_End/Defines/point.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390866297 source:c:\users\dwek\desktop\worms\trunk\worms\front_end\rungame.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	"runGame.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Back_End/Weapons_files/weapons.h"
+	"../Back_End/Weapons_files/firepunch.h"
+	"../Back_End/Weapons_files/shotgun.h"
+	"../Back_End/Weapons_files/grenade.h"
+	"../Back_End/Weapons_files/pneumaticdrill.h"
+	"../Back_End/Weapons_files/dynamite.h"
+	"../Back_End/Weapons_files/mine.h"
+	"../Back_End/Weapons_files/uzi.h"
+	"../Back_End/Weapons_files/airstrike.h"
+	"../Back_End/Weapons_files/banana.h"
+	"../Back_End/Weapons_files/clusterbomb.h"
+	"other_buttons.h"
+	"../Back_End/Worms_files/worms.h"
+	"../Back_End/Map_files/map.h"
+	"../Back_End/Communication_files/server-client.h"
+
+1390686204 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\airstrike.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390687676 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\airstrike.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"airstrike.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1390865804 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\banana.cpp
+	"banana.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390783144 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\banana.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\clusterbomb.cpp
+	"clusterbomb.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390785821 c:\users\dwek\desktop\worms\trunk\worms\back_end\weapons_files\clusterbomb.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390675066 source:c:\users\dwek\desktop\worms\back_end\communication_files\initconn.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Map_files/map.h"
+	"initConn.h"
+	"server-client.h"
+
+1337733312 c:\users\dwek\desktop\worms\polonet.h
+
+1395795807 c:\users\dwek\desktop\worms\back_end\map_files\map.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<vector>
+	<string>
+	"../Worms_files/worms.h"
+
+1390596258 c:\users\dwek\desktop\worms\front_end\defines\graphicdefines.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_image.h>
+	<cmath>
+
+1389717527 c:\users\dwek\desktop\worms\back_end\defines\gamedefines.h
+
+1390675241 c:\users\dwek\desktop\worms\back_end\worms_files\worms.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	"../Weapons_files/weapons.h"
+	"../Defines/point.h"
+	<vector>
+	<string>
+
+1390686460 c:\users\dwek\desktop\worms\back_end\weapons_files\weapons.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<vector>
+	"../Defines/point.h"
+
+1389833516 c:\users\dwek\desktop\worms\back_end\defines\point.h
+
+1389125322 c:\users\dwek\desktop\worms\back_end\communication_files\initconn.h
+
+1390675261 c:\users\dwek\desktop\worms\back_end\communication_files\server-client.h
+	<fstream>
+	"../Map_files/map.h"
+	"../../polonet.h"
+
+1390675274 source:c:\users\dwek\desktop\worms\back_end\communication_files\play_again.cpp
+	<cstring>
+	<cstdio>
+	<iostream>
+	"play_again.h"
+	"server-client.h"
+	"../../polonet.h"
+
+1390675269 c:\users\dwek\desktop\worms\back_end\communication_files\play_again.h
+	"server-client.h"
+	"../../polonet.h"
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\communication_files\server-client.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	<fstream>
+	"../../polonet.h"
+	"server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390675303 source:c:\users\dwek\desktop\worms\back_end\defines\point.cpp
+	<cmath>
+	"point.h"
+	"../../Front_End/Defines/graphicdefines.h"
+
+1395795807 source:c:\users\dwek\desktop\worms\back_end\map_files\map.cpp
+	"map.h"
+	"../../Front_end/runGame.h"
+	"../Communication_files/server-client.h"
+	<string>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1395795808 c:\users\dwek\desktop\worms\front_end\rungame.h
+	"../Back_end/Communication_files/server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390687676 source:c:\users\dwek\desktop\worms\back_end\weapons_files\airstrike.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"airstrike.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\airstrike.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390865804 source:c:\users\dwek\desktop\worms\back_end\weapons_files\banana.cpp
+	"banana.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390783144 c:\users\dwek\desktop\worms\back_end\weapons_files\banana.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\weapons_files\clusterbomb.cpp
+	"clusterbomb.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390785821 c:\users\dwek\desktop\worms\back_end\weapons_files\clusterbomb.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\weapons_files\dynamite.cpp
+	"dynamite.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\dynamite.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\weapons_files\firepunch.cpp
+	"firepunch.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\firepunch.h
+	"weapons.h"
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\weapons_files\grenade.cpp
+	"grenade.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\grenade.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864832 source:c:\users\dwek\desktop\worms\back_end\weapons_files\mine.cpp
+	"mine.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\mine.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1396805465 source:c:\users\dwek\desktop\worms\back_end\weapons_files\pneumaticdrill.cpp
+	"pneumaticdrill.h"
+	"../Map_files/map.h"
+	"../Defines/point.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\pneumaticdrill.h
+	"weapons.h"
+
+1390686204 source:c:\users\dwek\desktop\worms\back_end\weapons_files\shotgun.cpp
+	"shotgun.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\shotgun.h
+	"weapons.h"
+
+1390686204 source:c:\users\dwek\desktop\worms\back_end\weapons_files\uzi.cpp
+	"uzi.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686204 c:\users\dwek\desktop\worms\back_end\weapons_files\uzi.h
+	"weapons.h"
+
+1390686479 source:c:\users\dwek\desktop\worms\back_end\weapons_files\weapons.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1395795807 source:c:\users\dwek\desktop\worms\back_end\worms_files\worms.cpp
+	"worms.h"
+	"../../Front_End/runGame.h"
+	<iostream>
+	"../Map_files/map.h"
+
+1392071066 source:c:\users\dwek\desktop\worms\front_end\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Back_End/Map_files/map.h"
+	"../Back_End/Communication_files/initConn.h"
+	"../Back_End/Communication_files/server-client.h"
+	"runGame.h"
+	"../Back_End/Communication_files/play_again.h"
+
+1390594122 source:c:\users\dwek\desktop\worms\front_end\other_buttons.cpp
+	"other_buttons.h"
+
+1390675679 c:\users\dwek\desktop\worms\front_end\other_buttons.h
+	"../Back_End/Defines/point.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1337733534 source:c:\users\dwek\desktop\worms\polonet.c
+	<winsock.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/filio.h>
+	<stdio.h>
+	<string.h>
+	"polonet.h"
+
+1390675068 source:c:\users\dwek\desktop\worms - copia\back_end\communication_files\initconn.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Map_files/map.h"
+	"initConn.h"
+	"server-client.h"
+
+1337733312 c:\users\dwek\desktop\worms - copia\polonet.h
+
+1399672190 c:\users\dwek\desktop\worms - copia\back_end\map_files\map.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<vector>
+	<string>
+	"../Worms_files/worms.h"
+
+1390596260 c:\users\dwek\desktop\worms - copia\front_end\defines\graphicdefines.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_image.h>
+	<cmath>
+
+1389717528 c:\users\dwek\desktop\worms - copia\back_end\defines\gamedefines.h
+
+1390675242 c:\users\dwek\desktop\worms - copia\back_end\worms_files\worms.h
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	"../Weapons_files/weapons.h"
+	"../Defines/point.h"
+	<vector>
+	<string>
+
+1390686462 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\weapons.h
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../../Front_End/Defines/graphicdefines.h"
+	"../Defines/gamedefines.h"
+	<vector>
+	"../Defines/point.h"
+
+1389833518 c:\users\dwek\desktop\worms - copia\back_end\defines\point.h
+
+1389125324 c:\users\dwek\desktop\worms - copia\back_end\communication_files\initconn.h
+
+1399666235 c:\users\dwek\desktop\worms - copia\back_end\communication_files\server-client.h
+	<fstream>
+	"../Map_files/map.h"
+	"../../polonet.h"
+
+1399669151 source:c:\users\dwek\desktop\worms - copia\back_end\communication_files\play_again.cpp
+	<cstring>
+	<cstdio>
+	<iostream>
+	"play_again.h"
+	"server-client.h"
+	"../../polonet.h"
+
+1390675270 c:\users\dwek\desktop\worms - copia\back_end\communication_files\play_again.h
+	"server-client.h"
+	"../../polonet.h"
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\airstrike.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"airstrike.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\airstrike.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\banana.cpp
+	"banana.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390783146 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\banana.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\clusterbomb.cpp
+	"clusterbomb.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390785822 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\clusterbomb.h
+	"weapons.h"
+	<vector>
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864834 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\dynamite.cpp
+	"dynamite.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\dynamite.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\firepunch.cpp
+	"firepunch.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\firepunch.h
+	"weapons.h"
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\grenade.cpp
+	"grenade.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\grenade.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390864834 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\mine.cpp
+	"mine.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\mine.h
+	"weapons.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\pneumaticdrill.cpp
+	"pneumaticdrill.h"
+	"../Map_files/map.h"
+	"../Defines/point.h"
+	"../Communication_files/server-client.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\pneumaticdrill.h
+	"weapons.h"
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\shotgun.cpp
+	"shotgun.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\shotgun.h
+	"weapons.h"
+
+1398119014 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\uzi.cpp
+	"uzi.h"
+	"../Map_files/map.h"
+	<iostream>
+
+1390686206 c:\users\dwek\desktop\worms - copia\back_end\weapons_files\uzi.h
+	"weapons.h"
+
+1390686480 source:c:\users\dwek\desktop\worms - copia\back_end\weapons_files\weapons.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"weapons.h"
+	"../Map_files/map.h"
+	"../Communication_files/server-client.h"
+
+1390594124 source:c:\users\dwek\desktop\worms - copia\front_end\other_buttons.cpp
+	"other_buttons.h"
+
+1390675680 c:\users\dwek\desktop\worms - copia\front_end\other_buttons.h
+	"../Back_End/Defines/point.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1399669797 source:c:\users\dwek\desktop\worms - copia\back_end\communication_files\server-client.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	<fstream>
+	"../../polonet.h"
+	"server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1390675304 source:c:\users\dwek\desktop\worms - copia\back_end\defines\point.cpp
+	<cmath>
+	"point.h"
+	"../../Front_End/Defines/graphicdefines.h"
+
+1399673419 source:c:\users\dwek\desktop\worms - copia\back_end\map_files\map.cpp
+	"map.h"
+	"../../Front_end/runGame.h"
+	"../Communication_files/server-client.h"
+	<string>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1395795810 c:\users\dwek\desktop\worms - copia\front_end\rungame.h
+	"../Back_end/Communication_files/server-client.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1399672559 source:c:\users\dwek\desktop\worms - copia\back_end\worms_files\worms.cpp
+	"worms.h"
+	"../../Front_End/runGame.h"
+	<iostream>
+	"../Map_files/map.h"
+
+1399671341 source:c:\users\dwek\desktop\worms - copia\front_end\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<string>
+	<cstring>
+	<unistd.h>
+	<ctime>
+	<conio.h>
+	"../polonet.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Back_End/Map_files/map.h"
+	"../Back_End/Communication_files/initConn.h"
+	"../Back_End/Communication_files/server-client.h"
+	"runGame.h"
+	"../Back_End/Communication_files/play_again.h"
+
+1397403786 source:c:\users\dwek\desktop\worms - copia\front_end\rungame.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	"runGame.h"
+	<allegro5\allegro.h>
+	<allegro5\allegro_primitives.h>
+	<allegro5\allegro_font.h>
+	<allegro5\allegro_ttf.h>
+	<allegro5\allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"../Back_End/Weapons_files/weapons.h"
+	"../Back_End/Weapons_files/firepunch.h"
+	"../Back_End/Weapons_files/shotgun.h"
+	"../Back_End/Weapons_files/grenade.h"
+	"../Back_End/Weapons_files/pneumaticdrill.h"
+	"../Back_End/Weapons_files/dynamite.h"
+	"../Back_End/Weapons_files/mine.h"
+	"../Back_End/Weapons_files/uzi.h"
+	"../Back_End/Weapons_files/airstrike.h"
+	"../Back_End/Weapons_files/banana.h"
+	"../Back_End/Weapons_files/clusterbomb.h"
+	"other_buttons.h"
+	"../Back_End/Worms_files/worms.h"
+	"../Back_End/Map_files/map.h"
+	"../Back_End/Communication_files/server-client.h"
+
+1397335268 source:c:\users\dwek\desktop\worms - copia\polonet.c
+	<winsock.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/filio.h>
+	<stdio.h>
+	<string.h>
+	"polonet.h"
+
